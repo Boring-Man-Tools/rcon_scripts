@@ -1,0 +1,124 @@
+addbot "TeamID" "Difficulty"
+addtime "Seconds"
+aimode "AImodeID"
+allvice "PlayerName"" "Amount"
+ban "PlayerName" "Reason"
+beaconstart
+changemap "MapFolder"
+changeteam "PlayerName" "TeamID"
+clearchat
+clearrcon
+cleartempbans
+cmdlist "FileName"
+comictext "Text" "X" "Y" "Color1" "Color2" "Size"
+confetti "PlayerName"
+copylog
+cure "PlayerName"
+currentwave
+decalclear
+deletesave "ProfileID" "StoreID"
+detonatebomb
+displayinfo
+drunk "PlayerName"
+echo "Message" "Color"
+endmatch
+endserver "ExitMode" "ExitStatus"
+eventtext "Message" "Color"
+explodebig "X" "Y"
+explode "X" "Y"
+flash "PlayerName"
+forcewager
+forceweap "PlayerName" "Weap1" "Weap2" "Weap3" "Dual"
+freeze "PlayerName"
+givevice "PlayerName" "ViceID"
+globalsound "SoundName"
+help "Command"
+incteamscore "TeamID" "Value"
+kickbots
+kick "PlayerName" "Reason"
+killall "DeathType"
+killbigboss "BossID" "DeathType"
+killenemies "DeathType"
+kill "PlayerName" "DeathType"
+killteam "TeamID" "DeathType"
+listdir
+listmutators
+listsfx
+lobby
+localsound "SoundName" "X" "Y" "Silenced" "Reach"
+matchtime
+money "PlayerName" "MoneyAmount"
+moveall "X" "Y"
+moveenemies "X" "Y" "EnemyID"
+move "PlayerName" "X" "Y"
+moveteam "TeamID" "X" "Y"
+mutatorsetting "MutatorID" "MutatorSetting" "TeamID"
+netcodedamageallow "Value"
+netcodedeathpredictavg "Value"
+netcodedeathpredictping "Value"
+netcodedeathpredicttime "Value"
+netcodedistance "Value"
+netcodelimit "Value"
+netcodemargin "Value"
+netcodereckon "ServerValue" “ClientValue
+netcodereset
+netcodetimerange "Value"
+networkinfo
+objreport
+password "Text"
+pause
+playersound "PlayerName" "SoundName"
+pm "PlayerName" "Message" "Color"
+poison "PlayerName"
+powerup "PlayerName" "PowerUp"
+randbkgd
+rawsay "Message" "Color"
+rconget "InstanceID" "CaseID" "RequestID" "PlayerID"
+rcon "String"
+reloadmutators "ExcludePlayers"
+resetallplayers
+resetmutatorsplayer "PlayerName"
+resetplayer "PlayerName"
+resetvicesall
+resetvicesplayer "PlayerName"
+resetworld
+restartmap
+restartround
+reviveall
+revive "PlayerName"
+say "Message"
+serverset_fps "Value"
+serverset_netrate "Value"
+serverset_sleep "Value"
+setallvice "ViceID" "Amount" "TeamID"
+setbotaidivert "0-100"
+setbotaimode "BotName" "AImodeID"
+setlife "PlayerName" "Amount"
+setmutatorplayer "PlayerName" "MutatorID" "MutatorSetting"
+setrangetargets "InputObjectName"
+setteamscore "TeamID" "Value"
+setvice "PlayerName" "ViceID" "Amount"
+setwave "WaveNumber"
+shock "PlayerName"
+shootingrange "0/1"
+showcollision "0/1"
+showdps "0/1"
+showhitbox "0/1"
+showhud "0/1"
+showlogic "0/1"
+showpath "0/1"
+showplayerinfo "0/1"
+showtiles "0/1"
+skip
+spawnbigboss "BossID" "TeamID" "X" "Y"
+spawnbody "X" "Y" "Color" "Hat" "DeathType"
+spawnenemy "EnemyID" "RankID" "X" "Y"
+spawnvice "ViceID" "X" "Y" "PlayerName"
+stopcmdlist
+tempban "PlayerName" "Reason" "Minutes"
+test "Test1" "Test2"
+thaw "PlayerName"
+unbanlast
+unpause
+uptime
+zombending
